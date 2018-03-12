@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width:1170px;
+	margin: 0 auto;
+}
+
+.note{
+	padding: 10px;
+	margin: 0 0 10px;
+	background-color: #ccc;
+}
+
+.primary_note{
+	border-left: 10px solid blue;
+}
+
+.success_note{
+	border-left: 10px solid lightseagreen;
+}
+
+.info_note{
+	border-left: 10px solid powderblue;
+}
+
+.danger_note{
+	border-left: 10px solid red;
+}
+
+.warning_note{
+	border-left: 10px solid orange;
+}
